@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport",content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div class="center">
+      <p id="PromptText">
+        Aim your phone towards<br />
+        the target image
+      </p>
+      <div id="Prompt">
+        <div id="PromptImg">
+          <img style="pointer-events: none;" alt="" src="../assets/TargetImage.png" />
+          <img id="PhoneBackground" draggable="false" style="pointer-events: none;" alt="" src="../assets/Prompt.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
