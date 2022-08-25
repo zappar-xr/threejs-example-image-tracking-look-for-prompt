@@ -9,7 +9,7 @@
 import * as THREE from 'three';
 import * as ZapparThree from '@zappar/zappar-threejs';
 
-const targetImage = new URL('../assets/example-tracking-image.zpt', import.meta.url).href;
+const targetImage = new URL('./assets/example-tracking-image.zpt', import.meta.url).href;
 
 import './index.css';
 
