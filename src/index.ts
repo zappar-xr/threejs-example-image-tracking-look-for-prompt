@@ -9,9 +9,9 @@
 import * as THREE from 'three';
 import * as ZapparThree from '@zappar/zappar-threejs';
 
-import targetImage from '../assets/example-tracking-image.zpt';
+const targetImage = new URL('../assets/example-tracking-image.zpt', import.meta.url).href;
 
-import './index.sass';
+import './index.css';
 
 // The SDK is supported on many different browsers, but there are some that
 // don't provide camera access. This function detects if the browser is supported
